@@ -38,6 +38,7 @@ export default function Home({ propertyForRent, propertyForSale }) {
         {propertyForRent.map((property) => <Property property={property} key={property.id} />)}
       </Flex>
       <Banner
+
         purpose='BUY A HOME'
         title="Find ,Buy & Own your"
         title2="Dream Home"
